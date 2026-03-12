@@ -1,72 +1,66 @@
-			*{
-			margin:0;
-			padding:0;
-			box-sizing:border-box;
-			font-family: "Open Sans", sans-serif;
-			}
+* {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  
+}
+
+.container {
+  width: 535px;
+  margin: 40px auto;
+}
+
+.logo {
+  text-align: center;
+  margin-bottom: 40px;
+}
 
 
-			.container{
-			width:600px;
-			margin:40px auto;
-			}
+.square {
+  padding: 22px 28px 28px 28px; /*top, right, bottom, left*/
+  border-radius: 12px;
+  margin: 0 auto 35px;
+}
 
-			.logo{
-			text-align:center;
-			margin-bottom:40px;
-			}
+.square h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
 
-			.logo img{
-			width:140px;
-			}
+.blue h1 {
+  font-size: 36px;
+}
 
-			.box{
-			width:513px;
-			padding:22px 28px 28px 28px;
-			border-radius:12px;
-			margin:0 auto 35px;
-			}
+.square p {
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0;
+}
 
-		.box h2{
-			font-size:24px;
-			margin-bottom:10px;
-		}
+.orange p {
+  color: #2b2b2b;
+}
 
-		.blue h2{
-		    font-size:36px;
-		}
+.blue {
+  background: #b3c5f6;
+  color: #2f4c9b;
+}
 
-		.box p{
-			font-size:16px;
-			line-height:24px;
-			margin:0;
-		}
+.blue p {
+  color: #5f6a94;
+}
 
+.orange {
+  background: #f4c9a0;
+  color: #7b4b15;
+}
 
-			.orange p{
-				color:#2b2b2b;
-			}
+.green {
+  background: #a7f48c;
+  color: #2c6b2d;
+}
 
-			.blue{
-			background:#b3c5f6;
-			color:#2f4c9b;
-			}
-			
-			.blue p{
-				color:#5f6a94;
-			}
-
-			.orange{
-			background:#f4c9a0;
-			color:#7b4b15;
-			}
-
-			.green{
-			background:#a7f48c;
-			color:#2c6b2d;
-			}
-
-			.purple{
-			background:#f4c5fd;
-			color:#5a2c63;
-			}
+.purple {
+  background: #f4c5fd;
+  color: #5a2c63;
+}
