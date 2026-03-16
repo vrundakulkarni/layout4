@@ -1,66 +1,56 @@
-* {
+  * {
+    margin: 0;
+    padding: 0;
   font-family: "Open Sans", sans-serif;
-  margin: 0;
-  padding: 0;
-  
-}
+  }
 
-.container {
-  width: 535px;
-  margin: 40px auto;
-}
+  body {
+    background: #f7f4ef;
+  }
 
-.logo {
-  text-align: center;
-  margin-bottom: 40px;
-}
+  .container {
+    margin: 60px auto;
+  }
+
+  .logo-wrapper {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .card {
+    width: 640px;
+    margin: 30px auto;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 8px;    /*corner*/
+    text-align: center;
+  }
 
 
-.square {
-  padding: 22px 28px 28px 28px; /*top, right, bottom, left*/
-  border-radius: 12px;
-  margin: 0 auto 35px;
-}
+  .card h2 {
+    font-size: 32px;
+    color: #3b3b3b;
+    margin-bottom: 10px;
+  }
 
-.square h1 {
-  font-size: 24px;
-  margin-bottom: 10px;
-}
+  .card p {
+    font-size: 16px;
+    color: #5f6a94;
+    margin-bottom: 37px;
+  }
 
-.blue h1 {
-  font-size: 36px;
-}
+  .food {
+    margin-bottom: 15px;
+  }
 
-.square p {
-  font-size: 16px;
-  line-height: 24px;
-  margin: 0;
-}
 
-.orange p {
-  color: #2b2b2b;
-}
 
-.blue {
-  background: #b3c5f6;
-  color: #2f4c9b;
-}
-
-.blue p {
-  color: #5f6a94;
-}
-
-.orange {
-  background: #f4c9a0;
-  color: #7b4b15;
-}
-
-.green {
-  background: #a7f48c;
-  color: #2c6b2d;
-}
-
-.purple {
-  background: #f4c5fd;
-  color: #5a2c63;
-}
+  .btn {
+    padding: 10px 35px;
+    background: #f88413;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    margin-bottom: 37px;
+  }
